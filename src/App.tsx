@@ -1,6 +1,6 @@
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import LoginStatus from './component/Globalmangestate/Recuder/Logins/LoginStatus';
+import Counter2 from './component/Globalmangestate/Redux/FastwithTS/Counter2';
 /* import { QueryClient, QueryClientProvider} from '@tanstack/react-query'; */
 
 
@@ -9,14 +9,14 @@ import LoginStatus from './component/Globalmangestate/Recuder/Logins/LoginStatus
 function App() {
  
   return (
-    <>
-      {/*  <QueryClientProvider client={queryClient}> */}
-        {/* <InfinityList/> */}
-        {/* <TestIn/> */}
-      {/* </QueryClientProvider>  */}
-     <LoginStatus/>
-    </>
-  )
+    <div className="App">
+      <header className="App-header">
+        <img src={'src/assets/logo_redux.svg'} className="App-logo" alt="logo" />
+       {/*  <Counter /> */}
+        <Counter2/>
+        </header>
+    </div>
+  );
 }
 
 export default App
